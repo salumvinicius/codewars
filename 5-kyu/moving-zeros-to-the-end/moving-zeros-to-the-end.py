@@ -1,6 +1,8 @@
 def move_zeros(lst):
-    for x in lst:
-        if x == 0:
-            lst.remove(x)
-            lst.append(x)
-    return lst
+    resultado = lst
+    for numero in lst:
+        if numero == 0:
+            resultado.remove(numero)
+            resultado.append(numero)
+    
+    return resultado
