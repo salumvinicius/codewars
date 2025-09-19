@@ -1,4 +1,3 @@
- 
 def expanded_form(num):
     res = []
     for i , numero in enumerate(str(num)):
