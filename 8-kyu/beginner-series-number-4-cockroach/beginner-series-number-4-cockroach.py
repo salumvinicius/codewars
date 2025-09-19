@@ -1,3 +1,4 @@
  
+import math
 def cockroach_speed(s):
-    return round(s * 27.7)
+    return math.floor(s * 27.7)
