@@ -1,3 +1,4 @@
+ 
 def small_enough(array, limit):
     res = []
     for numero in array:
