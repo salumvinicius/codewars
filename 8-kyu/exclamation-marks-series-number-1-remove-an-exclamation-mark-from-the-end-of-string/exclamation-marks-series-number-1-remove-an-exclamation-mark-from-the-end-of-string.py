@@ -1,4 +1,3 @@
- 
 def remove(s):
     if s == "":
         return s
