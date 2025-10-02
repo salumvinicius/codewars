@@ -1,2 +1,3 @@
-SELECT age AS distinct(age)
+ 
+SELECT DISTINCT age AS age
 FROM people
