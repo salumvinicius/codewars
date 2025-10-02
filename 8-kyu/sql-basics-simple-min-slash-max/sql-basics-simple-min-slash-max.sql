@@ -1,2 +1,3 @@
-SELECT min(age), max(age) as age_min, age_max
+ 
+SELECT min(age) AS age_min
 FROM people
