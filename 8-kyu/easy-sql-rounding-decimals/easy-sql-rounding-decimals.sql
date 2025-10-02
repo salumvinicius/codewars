@@ -1,3 +1,3 @@
  
-SELECT FLOOR(number1), round(number2, 2)
+SELECT FLOOR(number1), CEIL(number2)
 FROM decimals
