@@ -1,4 +1,3 @@
- 
 def reverse_letter(st):
     result = []
     for letra in st:
