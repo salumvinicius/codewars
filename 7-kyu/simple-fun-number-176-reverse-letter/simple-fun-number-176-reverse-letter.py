@@ -7,5 +7,5 @@ def reverse_letter(st):
         else:
             pass
         
-    print(reversed(result))
+    return "".join(reversed(result))
             
