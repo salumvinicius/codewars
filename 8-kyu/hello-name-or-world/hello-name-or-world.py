@@ -1,3 +1,3 @@
  
 def hello(name):
-    return "Hello, " + name.title()
+    return "Hello, " + title(name)
