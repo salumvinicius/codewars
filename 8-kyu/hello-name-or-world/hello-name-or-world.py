@@ -7,4 +7,4 @@ def hello(name):
         else:
             return "Hello, " + name.title() + "!"
     except:
-        return "Hello World!"
+        return "Hello, World!"
