@@ -2,7 +2,7 @@
 def hello(name):
     try:
         if name == "":
-        return "Hello, World!"
+            return "Hello, World!"
 ​
         else:
             return "Hello, " + name.title() + "!"
