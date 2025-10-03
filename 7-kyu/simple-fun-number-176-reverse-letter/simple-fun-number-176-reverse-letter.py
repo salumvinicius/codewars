@@ -6,6 +6,6 @@ def reverse_letter(st):
             result += letra
         else:
             pass
-    print(result)
+    print(reversed(result))
     return reversed(result)
             
