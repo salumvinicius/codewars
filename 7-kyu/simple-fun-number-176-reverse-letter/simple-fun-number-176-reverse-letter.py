@@ -1,11 +1,11 @@
  
 def reverse_letter(st):
-    result = ""
+    result = []
     for letra in st:
         if letra.isalpha():
-            result += letra
+            result.append(letra)
         else:
             pass
+        
     print(reversed(result))
-    return reversed(result)
             
