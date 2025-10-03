@@ -1,3 +1,6 @@
  
 def hello(name):
-    return "Hello, " + name.title() + "!"
+    if name == "":
+        return "Hello, World!"
+    else:
+        return "Hello, " + name.title() + "!"
